@@ -1,0 +1,64 @@
+class Player:
+    name (str)
+    hp = 10
+
+class Room:
+    name (str)
+    desc (str)
+    connect (list)
+
+class HealRoom(Room):
+    heal (int)
+
+class DmgRoom(Room):
+    dmg (int)
+
+class Randroom(Room):
+    heal (int)
+    dmg (int)
+
+Create and initialize rooms
+Connect rooms
+
+Initialize variable and player
+current = room1
+previous = room1
+win = False
+more = False
+stats = Player(name)
+
+while True:
+    if previous != current.name
+        if current is DmgRoom
+            Take damage or dath based on room1
+        else if current is RandRoom
+            Player choice: Initiate event?
+            if yes:
+                Random chance to heal or take damage
+                Update health
+
+    Print current room name and health
+
+    if health <= 0:
+        Print info
+        break
+
+    if win == True:
+        Print info
+        break
+
+    Update previous = current.name
+
+    if current.name != "room 10"
+        List connected rooms
+        Player choice input
+        Validate input
+        Update current room
+    else if more == False
+        Display choices
+        Player choice input
+        Handle outcome
+    else:
+        Display choices
+        Player choice input
+        Handle outcome
